@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
-    <body>&lt;iframe src=&quot;&quot; name=&quot;iframename&quot; id=&quot;iframename&quot; frameborder=&quot;0&quot; height=&quot;201&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;script type=&quot;text/javascript&quot;&gt;var params = window.document.URL.toString().split(&apos;?&apos;)[1];if (params == undefined) {params =&apos;ParentId=&apos; + window.document.URL.toString().split(&apos;?&apos;)[0].split(&apos;.com/&apos;)[1];}document.getElementById(&apos;iframename&apos;).src = &quot;/apex/NGFileUpload?core.apexpages.devmode.url=1&amp;&quot; + params;&lt;/script&gt;</body>
+    <body>&lt;iframe src=&quot;&quot; name=&quot;iframename&quot; id=&quot;iframename&quot; frameborder=&quot;0&quot; height=&quot;201&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;script type=&quot;text/javascript&quot;&gt;var params = window.document.URL.toString().split(&apos;?&apos;)[1];if (params == undefined) {params =&apos;ParentId=&apos; + window.document.URL.toString().split(&apos;?&apos;)[0].split(&apos;.com/&apos;)[1];}document.getElementById(&apos;iframename&apos;).src = &quot;/apex/FileUpload?core.apexpages.devmode.url=1&amp;&quot; + params;&lt;/script&gt;</body>
     <pageComponentType>htmlArea</pageComponentType>
     <width>narrow</width>
 </HomePageComponent>
